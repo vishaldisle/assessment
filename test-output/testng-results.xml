@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="24" total="37" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T00:11:53 IST" name="Suite" finished-at="2023-01-20T00:13:23 IST" duration-ms="89104">
+    <groups>
+    </groups>
+    <test started-at="2023-01-20T00:11:53 IST" name="CareerPage" finished-at="2023-01-20T00:13:23 IST" duration-ms="89104">
+      <class name="career_Page_testcase.TestCase1_13">
+        <test-method signature="Check_the_Sign_Up_For_Free_Button()[pri:13, instance:career_Page_testcase.TestCase1_13@505fc5a4]" started-at="2023-01-20T00:12:52 IST" name="Check_the_Sign_Up_For_Free_Button" finished-at="2023-01-20T00:13:22 IST" duration-ms="30160" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Please enter the verification code sent at ']"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a086acfe7e2df72934dc5dbaffb5baef, findElement {using=xpath, value=//h1[text()='Please enter the verification code sent at ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59703/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a086acfe7e2df72934dc5dbaffb5baef]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Please enter the verification code sent at ']"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a086acfe7e2df72934dc5dbaffb5baef, findElement {using=xpath, value=//h1[text()='Please enter the verification code sent at ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59703/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a086acfe7e2df72934dc5dbaffb5baef
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at career_Page_testcase.TestCase1_13.Check_the_Sign_Up_For_Free_Button(TestCase1_13.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_the_Sign_Up_For_Free_Button -->
+      </class> <!-- career_Page_testcase.TestCase1_13 -->
+      <class name="career_Page_testcase.TestCase1_12">
+        <test-method signature="Check_the_Password_text_Box()[pri:12, instance:career_Page_testcase.TestCase1_12@3d6f0054]" started-at="2023-01-20T00:12:52 IST" name="Check_the_Password_text_Box" finished-at="2023-01-20T00:12:52 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_the_Password_text_Box -->
+      </class> <!-- career_Page_testcase.TestCase1_12 -->
+      <class name="career_Page_testcase.TestCase1_11">
+        <test-method signature="Check_the_Phone_Number_text_Box()[pri:11, instance:career_Page_testcase.TestCase1_11@16a0ee18]" started-at="2023-01-20T00:12:52 IST" name="Check_the_Phone_Number_text_Box" finished-at="2023-01-20T00:12:52 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_the_Phone_Number_text_Box -->
+      </class> <!-- career_Page_testcase.TestCase1_11 -->
+      <class name="career_Page_testcase.TestCase1_10">
+        <test-method signature="Check_the_Phone_Number_text_Box()[pri:10, instance:career_Page_testcase.TestCase1_10@2a54a73f]" started-at="2023-01-20T00:12:51 IST" name="Check_the_Phone_Number_text_Box" finished-at="2023-01-20T00:12:52 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_the_Phone_Number_text_Box -->
+      </class> <!-- career_Page_testcase.TestCase1_10 -->
+      <class name="career_Page_testcase.TestCase1_3">
+        <test-method signature="Verify_CareerPageButton()[pri:3, instance:career_Page_testcase.TestCase1_3@76c3e77a]" started-at="2023-01-20T00:12:33 IST" name="Verify_CareerPageButton" finished-at="2023-01-20T00:12:33 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CareerPageButton -->
+      </class> <!-- career_Page_testcase.TestCase1_3 -->
+      <class name="career_Page_testcase.TestCase1_4">
+        <test-method signature="Verify_enterCompanyNameTextBox_displayOrNot()[pri:4, instance:career_Page_testcase.TestCase1_4@78123e82]" started-at="2023-01-20T00:12:33 IST" name="Verify_enterCompanyNameTextBox_displayOrNot" finished-at="2023-01-20T00:12:35 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_enterCompanyNameTextBox_displayOrNot -->
+      </class> <!-- career_Page_testcase.TestCase1_4 -->
+      <class name="career_Page_testcase.TestCase1_1">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:career_Page_testcase.TestCase1_1@5403f35f]" started-at="2023-01-20T00:11:53 IST" name="setUP" finished-at="2023-01-20T00:11:58 IST" duration-ms="4775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verify_the_URL()[pri:1, instance:career_Page_testcase.TestCase1_1@5403f35f]" started-at="2023-01-20T00:11:58 IST" name="verify_the_URL" finished-at="2023-01-20T00:12:28 IST" duration-ms="29922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_URL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:career_Page_testcase.TestCase1_1@5403f35f]" started-at="2023-01-20T00:13:22 IST" name="tearDown" finished-at="2023-01-20T00:13:23 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- career_Page_testcase.TestCase1_1 -->
+      <class name="career_Page_testcase.TestCase1_2">
+        <test-method signature="Verify_the_Button_Access_For_Free()[pri:2, instance:career_Page_testcase.TestCase1_2@57d7f8ca]" started-at="2023-01-20T00:12:28 IST" name="Verify_the_Button_Access_For_Free" finished-at="2023-01-20T00:12:33 IST" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_the_Button_Access_For_Free -->
+      </class> <!-- career_Page_testcase.TestCase1_2 -->
+      <class name="career_Page_testcase.TestCase1_9">
+        <test-method signature="Check_the_Last_Name_text_Box()[pri:9, instance:career_Page_testcase.TestCase1_9@71238fc2]" started-at="2023-01-20T00:12:51 IST" name="Check_the_Last_Name_text_Box" finished-at="2023-01-20T00:12:51 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_the_Last_Name_text_Box -->
+      </class> <!-- career_Page_testcase.TestCase1_9 -->
+      <class name="career_Page_testcase.TestCase1_7">
+        <test-method signature="Check_the_Confirm_Details_Button()[pri:7, instance:career_Page_testcase.TestCase1_7@662b4c69]" started-at="2023-01-20T00:12:50 IST" name="Check_the_Confirm_Details_Button" finished-at="2023-01-20T00:12:51 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_the_Confirm_Details_Button -->
+      </class> <!-- career_Page_testcase.TestCase1_7 -->
+      <class name="career_Page_testcase.TestCase1_8">
+        <test-method signature="Check_the_First_Name_text_Box()[pri:8, instance:career_Page_testcase.TestCase1_8@fa49800]" started-at="2023-01-20T00:12:51 IST" name="Check_the_First_Name_text_Box" finished-at="2023-01-20T00:12:51 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_the_First_Name_text_Box -->
+      </class> <!-- career_Page_testcase.TestCase1_8 -->
+      <class name="career_Page_testcase.TestCase1_5">
+        <test-method signature="Check_ComapnyNameEnter()[pri:5, instance:career_Page_testcase.TestCase1_5@67c33749]" started-at="2023-01-20T00:12:35 IST" name="Check_ComapnyNameEnter" finished-at="2023-01-20T00:12:46 IST" duration-ms="11735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_ComapnyNameEnter -->
+      </class> <!-- career_Page_testcase.TestCase1_5 -->
+      <class name="career_Page_testcase.TestCase1_6">
+        <test-method signature="Check_Company_Size_Drop_Down()[pri:6, instance:career_Page_testcase.TestCase1_6@fba92d3]" started-at="2023-01-20T00:12:46 IST" name="Check_Company_Size_Drop_Down" finished-at="2023-01-20T00:12:50 IST" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Company_Size_Drop_Down -->
+      </class> <!-- career_Page_testcase.TestCase1_6 -->
+    </test> <!-- CareerPage -->
+  </suite> <!-- Suite -->
+</testng-results>

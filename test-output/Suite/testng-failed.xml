@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listenersPack.ListenersClass"/>
+  </listeners>
+  <test thread-count="5" name="CareerPage(failed)">
+    <classes>
+      <class name="career_Page_testcase.TestCase1_13">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="Check_the_Sign_Up_For_Free_Button"/>
+        </methods>
+      </class> <!-- career_Page_testcase.TestCase1_13 -->
+    </classes>
+  </test> <!-- CareerPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
