@@ -1,10 +1,9 @@
 package postJob_page_testcase;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pomClasses.SignUpOrLoginPage;
 import utilityPAck.BaseClass;
 
 public class TestCase2_22 extends BaseClass{
@@ -12,9 +11,9 @@ public class TestCase2_22 extends BaseClass{
 	public void Check_the_Password_text_Box()
 	{	
 		String given4="1234567@expertia";
-		WebElement name4=driver.findElement(By.xpath("//input[@placeholder='Password']"));
-		name4.sendKeys(given4);
-		String actual4=name4.getAttribute("value").toString();
+		SignUpOrLoginPage sp = new SignUpOrLoginPage(driver);
+		sp.passwordTextbox(given4);
+		String actual4=sp.valuePassword();
 		Assert.assertEquals(actual4, given4);
 		 
 }

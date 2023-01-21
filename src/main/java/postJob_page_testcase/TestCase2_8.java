@@ -1,22 +1,22 @@
 package postJob_page_testcase;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pomClasses.JobDetailsPage;
 import utilityPAck.BaseClass;
 
 public class TestCase2_8 extends BaseClass {
-	@Test(priority=8)
-	public void Check_the_Job_Title_text_box()
-	{
-	
-		WebElement jobtit=driver.findElement(By.xpath("//input[@placeholder='Job Title']"));
-		Assert.assertTrue(jobtit.isDisplayed());
-		jobtit.sendKeys("Software Engineer");
-		Assert.assertNotNull(jobtit);
+	@Test(priority = 8)
+	public void Check_the_Job_Title_text_box() throws InterruptedException {
 		
+		String given="Software Engineer";
+		JobDetailsPage jp=new JobDetailsPage(driver);
+		boolean jobtit =jp.jobTitalTextboxDisplay();
+		Assert.assertTrue(jobtit);
+		jp.jobTitalTextbox(given);
+		Assert.assertNotNull(jobtit);
+
 	}
 
 }

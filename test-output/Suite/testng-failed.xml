@@ -6,13 +6,34 @@
   </listeners>
   <test thread-count="5" name="CareerPage(failed)">
     <classes>
-      <class name="career_Page_testcase.TestCase1_13">
+      <class name="postJob_page_testcase.TestCase2_9">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="Check_the_Experience_Required_Drop_Down"/>
+        </methods>
+      </class> <!-- postJob_page_testcase.TestCase2_9 -->
+      <class name="postJob_page_testcase.TestCase2_19">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="Check_the_Last_Name_text_Box"/>
+        </methods>
+      </class> <!-- postJob_page_testcase.TestCase2_19 -->
+      <class name="postJob_page_testcase.TestCase2_18">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="Check_the_First_Name_text_Box"/>
+        </methods>
+      </class> <!-- postJob_page_testcase.TestCase2_18 -->
+      <class name="postJob_page_testcase.TestCase2_23">
         <methods>
           <include name="tearDown"/>
           <include name="setUP"/>
           <include name="Check_the_Sign_Up_For_Free_Button"/>
         </methods>
-      </class> <!-- career_Page_testcase.TestCase1_13 -->
+      </class> <!-- postJob_page_testcase.TestCase2_23 -->
     </classes>
   </test> <!-- CareerPage(failed) -->
 </suite> <!-- Failed suite [Suite] -->

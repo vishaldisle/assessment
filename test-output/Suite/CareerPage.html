@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>CareerPage</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 20 00:22:26 IST 2023</td>
+<td>Started on:</td><td>Sat Jan 21 16:43:45 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>66 seconds (66119 ms)</td>
+<tr><td>Total time:</td><td>187 seconds (187270 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,59 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_5.Check_ComapnyNameEnter()'><b>Check_ComapnyNameEnter</b><br>Test class: career_Page_testcase.TestCase1_5</td>
-<td><div><pre>java.lang.AssertionError: expected [Bangalore] but found []
-	at career_Page_testcase.TestCase1_5.Check_ComapnyNameEnter(TestCase1_5.java:34)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2130520253", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2130520253'><pre>java.lang.AssertionError: expected [Bangalore] but found []
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at career_Page_testcase.TestCase1_5.Check_ComapnyNameEnter(TestCase1_5.java:34)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>13</td>
-<td>career_Page_testcase.TestCase1_5@67c33749</td></tr>
-<tr>
-<td title='career_Page_testcase.TestCase1_13.Check_the_Sign_Up_For_Free_Button()'><b>Check_the_Sign_Up_For_Free_Button</b><br>Test class: career_Page_testcase.TestCase1_13</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Please enter the verification code sent at &apos;]&quot;}
+<td title='postJob_page_testcase.TestCase2_18.Check_the_First_Name_text_Box()'><b>Check_the_First_Name_text_Box</b><br>Test class: postJob_page_testcase.TestCase2_18</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;First Name&apos;]&quot;}
   (Session info: chrome=109.0.5414.75)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [42aef3e130000a99aa3685cd1fb5d6ee, findElement {using=xpath, value=//h1[text()=&apos;Please enter the verification code sent at &apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59961/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 42aef3e130000a99aa3685cd1fb5d6ee
+Command: [0f5d37bcffe59e8560265d0acabe0a20, findElement {using=xpath, value=//input[@placeholder=&apos;First Name&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -139,18 +96,22 @@ Session ID: 42aef3e130000a99aa3685cd1fb5d6ee
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-	at career_Page_testcase.TestCase1_13.Check_the_Sign_Up_For_Free_Button(TestCase1_13.java:20)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at pomClasses.SignUpOrLoginPage.firstName(SignUpOrLoginPage.java:17)
+	at postJob_page_testcase.TestCase2_18.Check_the_First_Name_text_Box(TestCase2_18.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1691678663", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1691678663'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Please enter the verification code sent at &apos;]&quot;}
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace751259764", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace751259764'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;First Name&apos;]&quot;}
   (Session info: chrome=109.0.5414.75)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [42aef3e130000a99aa3685cd1fb5d6ee, findElement {using=xpath, value=//h1[text()=&apos;Please enter the verification code sent at &apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59961/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 42aef3e130000a99aa3685cd1fb5d6ee
+Command: [0f5d37bcffe59e8560265d0acabe0a20, findElement {using=xpath, value=//input[@placeholder=&apos;First Name&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -165,7 +126,11 @@ Session ID: 42aef3e130000a99aa3685cd1fb5d6ee
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-	at career_Page_testcase.TestCase1_13.Check_the_Sign_Up_For_Free_Button(TestCase1_13.java:20)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at pomClasses.SignUpOrLoginPage.firstName(SignUpOrLoginPage.java:17)
+	at postJob_page_testcase.TestCase2_18.Check_the_First_Name_text_Box(TestCase2_18.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -194,7 +159,261 @@ Session ID: 42aef3e130000a99aa3685cd1fb5d6ee
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>30</td>
-<td>career_Page_testcase.TestCase1_13@505fc5a4</td></tr>
+<td>postJob_page_testcase.TestCase2_18@4d0f2471</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_19.Check_the_Last_Name_text_Box()'><b>Check_the_Last_Name_text_Box</b><br>Test class: postJob_page_testcase.TestCase2_19</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;Last Name&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f5d37bcffe59e8560265d0acabe0a20, findElement {using=xpath, value=//input[@placeholder=&apos;Last Name&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at pomClasses.SignUpOrLoginPage.lastName(SignUpOrLoginPage.java:29)
+	at postJob_page_testcase.TestCase2_19.Check_the_Last_Name_text_Box(TestCase2_19.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace182584006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace182584006'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;Last Name&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f5d37bcffe59e8560265d0acabe0a20, findElement {using=xpath, value=//input[@placeholder=&apos;Last Name&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at pomClasses.SignUpOrLoginPage.lastName(SignUpOrLoginPage.java:29)
+	at postJob_page_testcase.TestCase2_19.Check_the_Last_Name_text_Box(TestCase2_19.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>postJob_page_testcase.TestCase2_19@7133da86</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_9.Check_the_Experience_Required_Drop_Down()'><b>Check_the_Experience_Required_Drop_Down</b><br>Test class: postJob_page_testcase.TestCase2_9</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div role=&quot;listbox&quot; aria-expanded=&quot;false&quot; class=&quot;ui fluid selection dropdown&quot; tabindex=&quot;0&quot; style=&quot;width: 100%; border-radius: 10px; z-index: 13; border: 0.1px solid grey; height: 20px; outline: none;&quot;&gt;...&lt;/div&gt; is not clickable at point (353, 268). Other element would receive the click: &lt;div class=&quot;title&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=109.0.5414.75)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f5d37bcffe59e8560265d0acabe0a20, clickElement {id=4d873913-e885-488d-bfdf-ff08c0acd77f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0f5d37bcffe59e8560265d0acabe0a20)] -&gt; xpath: //div[@role=&apos;listbox&apos;]]
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pomClasses.JobDetailsPage.experienceDropdownBoxclick(JobDetailsPage.java:34)
+	at postJob_page_testcase.TestCase2_9.Check_the_Experience_Required_Drop_Down(TestCase2_9.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1871778598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1871778598'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div role=&quot;listbox&quot; aria-expanded=&quot;false&quot; class=&quot;ui fluid selection dropdown&quot; tabindex=&quot;0&quot; style=&quot;width: 100%; border-radius: 10px; z-index: 13; border: 0.1px solid grey; height: 20px; outline: none;&quot;&gt;...&lt;/div&gt; is not clickable at point (353, 268). Other element would receive the click: &lt;div class=&quot;title&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=109.0.5414.75)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f5d37bcffe59e8560265d0acabe0a20, clickElement {id=4d873913-e885-488d-bfdf-ff08c0acd77f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0f5d37bcffe59e8560265d0acabe0a20)] -&gt; xpath: //div[@role=&apos;listbox&apos;]]
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pomClasses.JobDetailsPage.experienceDropdownBoxclick(JobDetailsPage.java:34)
+	at postJob_page_testcase.TestCase2_9.Check_the_Experience_Required_Drop_Down(TestCase2_9.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>postJob_page_testcase.TestCase2_9@383bfa16</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_23.Check_the_Sign_Up_For_Free_Button()'><b>Check_the_Sign_Up_For_Free_Button</b><br>Test class: postJob_page_testcase.TestCase2_23</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Please enter the verification code sent at &apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f5d37bcffe59e8560265d0acabe0a20, findElement {using=xpath, value=//h1[text()=&apos;Please enter the verification code sent at &apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at pomClasses.VerifyEmailPage.textOnVerifyEmailPage(VerifyEmailPage.java:16)
+	at postJob_page_testcase.TestCase2_23.Check_the_Sign_Up_For_Free_Button(TestCase2_23.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1964117592", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1964117592'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Please enter the verification code sent at &apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f5d37bcffe59e8560265d0acabe0a20, findElement {using=xpath, value=//h1[text()=&apos;Please enter the verification code sent at &apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53199/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f5d37bcffe59e8560265d0acabe0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at pomClasses.VerifyEmailPage.textOnVerifyEmailPage(VerifyEmailPage.java:16)
+	at postJob_page_testcase.TestCase2_23.Check_the_Sign_Up_For_Free_Button(TestCase2_23.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>postJob_page_testcase.TestCase2_23@28f2a10f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -204,60 +423,70 @@ Session ID: 42aef3e130000a99aa3685cd1fb5d6ee
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_4.Verify_enterCompanyNameTextBox_displayOrNot()'><b>Verify_enterCompanyNameTextBox_displayOrNot</b><br>Test class: career_Page_testcase.TestCase1_4</td>
+<td title='postJob_page_testcase.TestCase2_1.verify_the_URL()'><b>verify_the_URL</b><br>Test class: postJob_page_testcase.TestCase2_1</td>
+<td></td>
+<td>14</td>
+<td>postJob_page_testcase.TestCase2_1@fba92d3</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_6.Check_Company_Size_Drop_Down()'><b>Check_Company_Size_Drop_Down</b><br>Test class: postJob_page_testcase.TestCase2_6</td>
+<td></td>
+<td>5</td>
+<td>postJob_page_testcase.TestCase2_6@3bf9ce3e</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_22.Check_the_Password_text_Box()'><b>Check_the_Password_text_Box</b><br>Test class: postJob_page_testcase.TestCase2_22</td>
 <td></td>
 <td>0</td>
-<td>career_Page_testcase.TestCase1_4@78123e82</td></tr>
+<td>postJob_page_testcase.TestCase2_22@47faa49c</td></tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_1.verify_the_URL()'><b>verify_the_URL</b><br>Test class: career_Page_testcase.TestCase1_1</td>
-<td></td>
-<td>10</td>
-<td>career_Page_testcase.TestCase1_1@5403f35f</td></tr>
-<tr>
-<td title='career_Page_testcase.TestCase1_2.Verify_the_Button_Access_For_Free()'><b>Verify_the_Button_Access_For_Free</b><br>Test class: career_Page_testcase.TestCase1_2</td>
-<td></td>
-<td>2</td>
-<td>career_Page_testcase.TestCase1_2@57d7f8ca</td></tr>
-<tr>
-<td title='career_Page_testcase.TestCase1_8.Check_the_First_Name_text_Box()'><b>Check_the_First_Name_text_Box</b><br>Test class: career_Page_testcase.TestCase1_8</td>
+<td title='postJob_page_testcase.TestCase2_10.Check_the_Job_Location_text_box()'><b>Check_the_Job_Location_text_box</b><br>Test class: postJob_page_testcase.TestCase2_10</td>
 <td></td>
 <td>0</td>
-<td>career_Page_testcase.TestCase1_8@fa49800</td></tr>
+<td>postJob_page_testcase.TestCase2_10@4d465b11</td></tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_12.Check_the_Password_text_Box()'><b>Check_the_Password_text_Box</b><br>Test class: career_Page_testcase.TestCase1_12</td>
+<td title='postJob_page_testcase.TestCase2_21.Check_the_Work_Email_Box()'><b>Check_the_Work_Email_Box</b><br>Test class: postJob_page_testcase.TestCase2_21</td>
 <td></td>
 <td>0</td>
-<td>career_Page_testcase.TestCase1_12@3d6f0054</td></tr>
+<td>postJob_page_testcase.TestCase2_21@73e22a3d</td></tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_11.Check_the_Phone_Number_text_Box()'><b>Check_the_Phone_Number_text_Box</b><br>Test class: career_Page_testcase.TestCase1_11</td>
+<td title='postJob_page_testcase.TestCase2_3.Verify_the_Post_a_Job()'><b>Verify_the_Post_a_Job</b><br>Test class: postJob_page_testcase.TestCase2_3</td>
 <td></td>
 <td>0</td>
-<td>career_Page_testcase.TestCase1_11@16a0ee18</td></tr>
+<td>postJob_page_testcase.TestCase2_3@bd4dc25</td></tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_10.Check_the_Phone_Number_text_Box()'><b>Check_the_Phone_Number_text_Box</b><br>Test class: career_Page_testcase.TestCase1_10</td>
-<td></td>
-<td>0</td>
-<td>career_Page_testcase.TestCase1_10@2a54a73f</td></tr>
-<tr>
-<td title='career_Page_testcase.TestCase1_6.Check_Company_Size_Drop_Down()'><b>Check_Company_Size_Drop_Down</b><br>Test class: career_Page_testcase.TestCase1_6</td>
+<td title='postJob_page_testcase.TestCase2_11.Check_the_Job_Type_selections()'><b>Check_the_Job_Type_selections</b><br>Test class: postJob_page_testcase.TestCase2_11</td>
 <td></td>
 <td>3</td>
-<td>career_Page_testcase.TestCase1_6@fba92d3</td></tr>
+<td>postJob_page_testcase.TestCase2_11@53fdffa1</td></tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_3.Verify_CareerPageButton()'><b>Verify_CareerPageButton</b><br>Test class: career_Page_testcase.TestCase1_3</td>
+<td title='postJob_page_testcase.TestCase2_8.Check_the_Job_Title_text_box()'><b>Check_the_Job_Title_text_box</b><br>Test class: postJob_page_testcase.TestCase2_8</td>
 <td></td>
-<td>0</td>
-<td>career_Page_testcase.TestCase1_3@76c3e77a</td></tr>
+<td>4</td>
+<td>postJob_page_testcase.TestCase2_8@71def8f8</td></tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_9.Check_the_Last_Name_text_Box()'><b>Check_the_Last_Name_text_Box</b><br>Test class: career_Page_testcase.TestCase1_9</td>
+<td title='postJob_page_testcase.TestCase2_5.Check_ComapnyNameEnter()'><b>Check_ComapnyNameEnter</b><br>Test class: postJob_page_testcase.TestCase2_5</td>
 <td></td>
-<td>0</td>
-<td>career_Page_testcase.TestCase1_9@71238fc2</td></tr>
+<td>39</td>
+<td>postJob_page_testcase.TestCase2_5@156b88f5</td></tr>
 <tr>
-<td title='career_Page_testcase.TestCase1_7.Check_the_Confirm_Details_Button()'><b>Check_the_Confirm_Details_Button</b><br>Test class: career_Page_testcase.TestCase1_7</td>
+<td title='postJob_page_testcase.TestCase2_2.Verify_the_Button_Access_For_Free()'><b>Verify_the_Button_Access_For_Free</b><br>Test class: postJob_page_testcase.TestCase2_2</td>
+<td></td>
+<td>2</td>
+<td>postJob_page_testcase.TestCase2_2@4efc180e</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_7.Check_the_Confirm_Details_Button()'><b>Check_the_Confirm_Details_Button</b><br>Test class: postJob_page_testcase.TestCase2_7</td>
 <td></td>
 <td>1</td>
-<td>career_Page_testcase.TestCase1_7@662b4c69</td></tr>
+<td>postJob_page_testcase.TestCase2_7@16610890</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_4.Verify_enterCompanyNameTextBox_displayOrNot()'><b>Verify_enterCompanyNameTextBox_displayOrNot</b><br>Test class: postJob_page_testcase.TestCase2_4</td>
+<td></td>
+<td>1</td>
+<td>postJob_page_testcase.TestCase2_4@25084a1e</td></tr>
+<tr>
+<td title='postJob_page_testcase.TestCase2_20.Check_the_Phone_Number_text_Box()'><b>Check_the_Phone_Number_text_Box</b><br>Test class: postJob_page_testcase.TestCase2_20</td>
+<td></td>
+<td>16</td>
+<td>postJob_page_testcase.TestCase2_20@3232a28a</td></tr>
 </table><p>
 </body>
 </html>
